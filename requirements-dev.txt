@@ -14,5 +14,6 @@ pyparsing!=3.0.5,>=2.0.2
 # Deps do coverage
 coverage
 pytest-cov
+codecov
 -r requirements.txt
 
