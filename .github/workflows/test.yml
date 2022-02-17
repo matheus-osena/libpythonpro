@@ -23,5 +23,10 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: pytest libpythonpro --cov=libpythonpro
+    - name: Instalações necessárias para Codecov
+      run:
+        curl -Os https://uploader.codecov.io/latest/linux/codecov
+        chmod +x codecov
+    ./codecov
     - name: Codecov
       uses: codecov/codecov-action@v2.1.0
