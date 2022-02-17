@@ -11,5 +11,8 @@ tomli>=1.0.0
 py>=1.8.2
 packaging
 pyparsing!=3.0.5,>=2.0.2
+# Deps do coverage
+coverage
+pytest-cov
 -r requirements.txt
 
