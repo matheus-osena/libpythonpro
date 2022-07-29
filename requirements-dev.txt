@@ -1,19 +1,19 @@
 flake8==4.0.1
-mccabe==0.6.1
+mccabe==0.7.0
 pycodestyle==2.8.0
 pyflakes==2.4.0
 # Deps do pytest
-pytest
+pytest==7.1.2
 pluggy<2.0,>=0.12
 attrs>=19.2.0
-iniconfig
+iniconfig==1.1.1
 tomli>=1.0.0
 py>=1.8.2
-packaging
+packaging==21.3
 pyparsing!=3.0.5,>=2.0.2
 # Deps do coverage
-coverage
-pytest-cov
-codecov
+coverage==6.4.2
+pytest-cov==3.0.0
+codecov==2.1.12
 -r requirements.txt
 
