@@ -3,7 +3,7 @@ mccabe==0.7.0
 pycodestyle==2.9.1
 pyflakes==2.5.0
 # Deps do pytest
-pytest
+pytest==7.2.0
 pluggy<2.0,>=0.12
 attrs>=19.2.0
 iniconfig
