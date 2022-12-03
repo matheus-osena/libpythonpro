@@ -9,7 +9,7 @@ attrs>=19.2.0
 iniconfig==1.1.1
 tomli>=1.0.0
 py>=1.8.2
-packaging
+packaging==21.3
 pyparsing!=3.0.5,>=2.0.2
 # Deps do coverage
 coverage
