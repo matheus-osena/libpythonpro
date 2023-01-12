@@ -12,7 +12,7 @@ py>=1.8.2
 packaging==23.0
 pyparsing!=3.0.5,>=2.0.2
 # Deps do coverage
-coverage
+coverage==7.0.5
 pytest-cov
 codecov
 -r requirements.txt
